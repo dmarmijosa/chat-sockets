@@ -1,4 +1,5 @@
 const crearMensaje = (nombre, mensaje) => {
+
     return {
         nombre,
         mensaje,
@@ -6,6 +7,7 @@ const crearMensaje = (nombre, mensaje) => {
     };
 
 }
+
 module.exports = {
     crearMensaje
 }
